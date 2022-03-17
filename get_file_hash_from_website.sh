@@ -10,4 +10,4 @@ then
         exit 0
 fi
 
-curl -L $1 | sha256sum
+curl -L --silent $1 | sha256sum
